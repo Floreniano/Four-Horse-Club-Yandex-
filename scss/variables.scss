@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Golos-Regular';
+  src: url('../assets/fonts/Golos/GolosText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Golos-Medium';
+  src: url('../assets/fonts/Golos/GolosText-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Golos-SemiBold';
+  src: url('../assets/fonts/Golos/GolosText-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Merriweather-Regular';
+  src: url('../assets/fonts/Merriweather/Merriweather-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather-Bold';
+  src: url('../assets/fonts/Merriweather/Merriweather-Bold.ttf') format('truetype');
+}
+
+:root {
+  --black: #313131;
+  --gray: #595653;
+  --red: #f54932;
+  --blue: #3057a2;
+  --black-btn: #1f1f1f;
+  --yellow: #fbce51;
+  --white: #ffffff;
+  --dots-no-active: #d9d9d9;
+  --bg-stages: #e6d6c1;
+  --h1-size: clamp(36px, 4.4vw, 60px);
+  --h2-size: clamp(28px, 2.6vw, 36px);
+  --h3-size: clamp(32px, 3.9vw, 54px);
+  --h1-LH: clamp(39px, 4.8vw, 66px);
+  --h2-LH: clamp(28px, 3.5vw, 48px);
+  --h3-LH: clamp(39px, 4.68vw, 65px);
+}
